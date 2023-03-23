@@ -1,0 +1,171 @@
+.indextp {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	position: relative;
+	height: 100%;
+	width: 200px;
+	background: gainsboro;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-origin: center center;
+	transform-origin: center center;
+	cursor: pointer;
+	overflow: hidden;
+	background: gainsboro;
+}
+
+.indextp .image {
+	display: block;
+	position: relative;
+	height: auto;
+	width: 90%;
+	pointer-events: none;
+}
+
+.indextp .xg {
+	color: white;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+	font-family: "Source Sans Pro", serif;
+	font-size: 1.2em;
+	color: black;
+}
+.indexzy {
+	position: absolute;
+	height: 170px;
+	width: 100%;
+	top: 0px;
+}
+.indextpzy {
+	position: absolute;
+	bottom: 20px;
+	margin-top: 10px;
+	background-color: aqua;
+	width: 100%;
+	height: 200px;
+}
+.Div {
+	position: absolute;
+	width: 30%;
+	height: 120px;
+	margin-left: 35%;
+	top: 65px;
+	text-align: center;
+	font-family: KaiTi;
+	font-size: xx-large;
+}
+.l {
+	text-align: center;
+	font-size: small;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+	font-family: "Source Sans Pro", serif;
+}
+.Table {
+	position: absolute;
+	bottom: -600px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.daohanglan{
+	position: absolute;
+	top: 170px;
+	width: 100%;
+	height: 60px;
+	background-color: rgb(245, 160, 241);
+}
+.daohanglanwz{
+	padding: 20px 98px 20px 98px;
+	color: aqua;
+	position: relative;
+	float: left;
+}
+.daohanglan>ul{
+	margin-left: 40px;
+	margin-right: 40px;
+	list-style-type: none;
+}
+.tp{
+	position: absolute;
+	background-image: url(../images/gws1.jpg);
+	width: 35%;
+	height: 170px;
+}
+.tp2{
+	position: absolute;
+	background-image: url(../images/gws1.jpg);
+	width: 35%;
+	height: 170px;
+	margin-left: 65%;
+}
+.jieshao{
+	position: absolute;
+	top: 294px;
+	margin: 20px;
+	margin-top: 0px;
+	background-image: url(../images/gws1.jpg);
+	left: 0px;
+	width: 25%;
+	height: 325px;
+}
+.indexwz{
+	position: absolute;
+	margin-left: 30%;
+	top: 294px;	
+	width: 70%;
+	height: 325px;
+	color: white;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+	font-family: "Source Sans Pro", serif;
+	font-size: 1.2em;
+	color: black;
+	line-height: 2em;
+}
+.ztjs1{
+	position: absolute;
+	width: 100%;
+	height: 64px;
+	top: 230px;
+}
+.ztjs1>h1{
+	margin-left: 20px;
+	color: white;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+	font-family: "Source Sans Pro", serif;
+	color: black;
+	line-height: 2em;
+}
+.ztjs2>h1{
+	margin: 20px;
+	margin-top: 0px;
+	color: white;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+	font-family: "Source Sans Pro", serif;
+	color: black;
+	line-height: 2em;
+}
+.ztjs2{
+	position: absolute;
+	width: 100%;
+	height: 64px;
+	top: 639px;
+}
+.dlwz{
+	position: absolute;
+	width: 100%;
+	height: 900px;
+	top: 703px;
+	color: white;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+	font-family: "Source Sans Pro", serif;
+	color: black;
+	line-height: 2em;
+}
+.dlwz>h2{
+	margin-left: 40px;
+}
+.dlwz>p{
+	margin-left: 40px;
+	margin-right: 40px;
+}
